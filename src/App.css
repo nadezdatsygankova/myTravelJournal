@@ -1,0 +1,118 @@
+/* .App {
+  text-align: center;
+} */
+
+/*
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/*
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.nav-header {
+  display: flex;
+  background-color: #f55a5a;
+  color: #ffffff;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid #f5f5f5;
+}
+
+.card-img > img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.card-description {
+  /* height: 231px; */
+}
+
+.card-des-location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-des-location > h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2b283a;
+  text-transform: uppercase;
+}
+
+.card-des-location > a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918e9b;
+}
+
+.locationName {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+  margin: 0;
+}
+.date {
+  display: flex;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+  color: #2b283a;
+}
+.description {
+  width: 326px;
+  height: 45px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2b283a;
+}
